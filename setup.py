@@ -15,8 +15,7 @@ setuptools.setup(
     keywords=['quine'],
     license='Unlicense',
     classifiers=[
-        'License :: Public Domain',
-        'Natural Language :: English',
+        'License :: OSI Approved :: The Unlicense (Unlicense)',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
     ],
