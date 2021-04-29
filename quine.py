@@ -4,7 +4,8 @@ import inspect
 import __main__
 
 try:
-    print(inspect.getsource(__main__), end='')
-except TypeError:
-    # In interactive mode, __main__ has no source. It's considered a builtin.
+    source = inspect.getsource(__main__)
+except TypeError:  # In interactive mode, __main__ has no source.
     pass
+else:
+    print(source, end='')
