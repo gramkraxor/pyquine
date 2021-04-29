@@ -5,7 +5,7 @@ long_description = Path('README.md').read_text()
 
 setuptools.setup(
     name='pyquine',
-    version='0.1',
+    version='0.2',
     author='Gramkraxor',
     author_email='gram@krax.dev',
     url='https://github.com/gramkraxor/pyquine',
