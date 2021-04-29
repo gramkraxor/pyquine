@@ -12,10 +12,10 @@ But `pyquine` supports any source file that manages to import it:
 #!/usr/bin/env python3
 """This is my quine. It prints its own source."""
 
-import     quine
+import quine
 ```
 
 It's cheating, but that's the point.
-Because PyPI deserves a good quine variation of the "import *XXX*" meme.
+Because PyPI deserves a good quine variation of the "import *X*" meme.
 
 [![xkcd #353: Python](https://imgs.xkcd.com/comics/python.png "xkcd #353: Python")](https://xkcd.com/353/)
